@@ -1,11 +1,10 @@
 // import logo from './logo.svg';
 import './App.css';
 import SayHello from './SayHello';
+import Counter from './component/chap03_state/Counter';
 // import Hello from './Hello';
-import ChangeEvent from './component/chap01_event/ChangeEvent';
-import ClickEvent from './component/chap01_event/ClickEvent';
-import SubmitEvent from './component/chap01_event/SubmitEvent';
-import FoodList from './component/chap02_props/FoodList';
+// import SubmitEvent from './component/chap01_event/SubmitEvent';
+import NickName from './component/chap03_state/NickName';
 
 
 //리액트에서는 하나의 컴포넌트가 여러개의 앨리먼트를 반환할 수 있습니다.
@@ -25,7 +24,7 @@ function App() {
   //{} 안에서 함수의 호출문이나 변수참조는 가능.
   return (
     <>
-      <FoodList />
+      <Counter />
     </>
   );
 }
